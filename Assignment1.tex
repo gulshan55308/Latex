@@ -1,0 +1,188 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{enumitem} % For custom enumeration labels
+
+\providecommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\myvec}[1]{\ensuremath{\begin{bmatrix}#1\end{bmatrix}}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+
+\begin{document}
+
+% Centering the section title in the middle of the page
+\begin{center}
+    \section*{Assignment}
+    \section*{August 27, 2024}
+\end{center}
+\vspace*{\fill} % Adds vertical space to push content to the top
+
+
+
+\begin{enumerate}
+    \item The position vectors of points $P$ and $Q$ are $\vec{p}$ and $\vec{q}$ respectively. The point $R$ divides the line segment $PQ$ in the ratio $3:1$ and $\vec{S}$ is the midpoint of the line segment $PR$. The position vector of $\vec{S}$ is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $\frac{\vec{p} + 3\vec{q}}{4}$
+        \item $\frac{\vec{p} + 3\vec{q}}{8}$
+        \item $\frac{5\vec{p} + 3\vec{q}}{4}$
+        \item $\frac{5\vec{p} + 3\vec{q}}{8}$
+    \end{enumerate}
+
+    \item For the matrix $A = \myvec{2 & -1 & 1 \\ \lambda & 2 & 0 \\ 1 & -2 & 3}$ to be invertible, the value of $\lambda$ is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $0$
+        \item $10$
+        \item $\mathbb{R} - \{10\}$
+        \item $\mathbb{R} - \{-10\}$
+    \end{enumerate}
+
+    \item The angle which the line $\frac{x}{1} = \frac{y}{-1} = \frac{z}{2}$ makes with the positive direction of the $y$-axis is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $\frac{5\pi}{6}$
+        \item $\frac{3\pi}{4}$
+        \item $\frac{5\pi}{4}$
+        \item $\frac{7\pi}{4}$
+    \end{enumerate}
+    
+    \item The Cartesian equation of the line passing through the point $(1, -3, 2)$ and parallel to the line:
+   \begin{align}
+         \vec{r} = (2 + \lambda)\hat{i} + \lambda \hat{j} + (-1 + \lambda)\hat{k}
+   \end{align}
+    is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $\frac{x-1}{2} = \frac{y+3}{0} = \frac{z-2}{-1}$
+        \item $\frac{x+1}{1} = \frac{y-3}{1} = \frac{z+2}{2}$
+        \item $\frac{x+1}{2} = \frac{y-3}{0} = \frac{z+2}{-1}$
+        \item $\frac{x-1}{1} = \frac{y+3}{1} = \frac{z-2}{2}$
+    \end{enumerate}
+    
+    \item If $A$ =  $\myvec{x & 0  \\ 1 & 1 }$ and $B$ = $\myvec{4& 0  \\ -1 & 1 }$then the value of x for which $A^2$ = $B$ is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $-2$
+        \item $2$
+        \item \item $2 \text{ or} -2$
+        \item $1$
+    \end{enumerate}
+
+    \item Given a curve $y = 7x - x^3$ and $x$ increases at the rate of 2 units per second, the rate at which the slope of the curve is changing when $x = 5$ is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $-60$ units/sec
+        \item $60$ units/sec
+        \item $-70$ units/sec
+        \item $-140$ units/sec
+    \end{enumerate}
+
+    \item Let $f(x) = \myvec{x^2 & \sin x \\ p & -1}$ where $p$ is a constant. The value of $p$ for which $f'(0) = 1$ is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $R$
+        \item $1$
+        \item $0$
+        \item $-1$
+    \end{enumerate}
+
+   \item If $A$ and $B$ are events such that $P(A \mid B) = P(B \mid A) \neq 0$, then:
+
+    \begin{enumerate}[label=(\alph*)]
+        \item $A \subset B$, but $A \neq B$
+        \item $A = B$
+        \item $A \cap B = \emptyset$
+        \item $P(A) = P(B)$
+    \end{enumerate}
+
+    \item A function $f: \mathbb{R} \to \mathbb{R}$ defined as $f(x) = x^2-4x+5$ is:
+    \begin{enumerate}[label=(\alph*)]
+        \item injective but not surjective
+        \item surjective but not injective
+        \item both injective and surjective
+        \item neither injective nor surjective
+    \end{enumerate}
+
+    \item If $A$ is a square matrix of order 3 such that the value of $|\text{adj} A| = 8$, then the value of $\mod{A^T}$ is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $\sqrt{2}$
+        \item $-\sqrt{2}$
+        \item ${8}$
+        \item $2 \sqrt{2}$
+    \end{enumerate}
+
+    \item If  $\int_{-2}^{3} x^2$ dx = k  $\int_0^3 x^2$ dx +  $\int_2^3 x^2$ dx, then the value of $k$ is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $2$
+        \item $1$
+        \item $0$
+        \item $\frac{1}{2}$
+    \end{enumerate}
+
+    \item The value of $\int_{1}^{0} \log x \, dx$ is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $0$
+        \item $1$
+        \item $e$
+        \item $e \log e$
+    \end{enumerate}
+
+    \item The area bounded by the curve $y = \sqrt{x}$, the $y$-axis, and between the lines $y = 0$ and $y = 3$ is:
+    \begin{enumerate}[label=(\alph*)]
+        \item $2\sqrt{3}$
+        \item $27$
+        \item $9$
+        \item $3$
+    \end{enumerate}
+
+    \item The order of the differential equation:
+    $$
+    \frac{d^3 y}{dx^3} + x \left( \frac{dy}{dx} \right)^5 = 4 \log \left( \frac{d^4 y}{dx^4} \right)
+    $$
+    is:
+    \begin{enumerate}[label=(\alph*)]
+        \item not defined
+        \item $3$
+        \item $4$
+        \item $5$
+    \end{enumerate}
+    \item If the inverse of the matrix $\myvec{7 & -3 & -3 \\ -1 & 1 & 0 \\ -1 & 0 & 1}$ is the matrix $\myvec{1 & 3 & 3 \\ 1 & \lambda & 3 \\ 1 & 3 & 4}$, then the value of $\lambda$ is:
+   \begin{enumerate}[label=(\alph*)]
+    \item $-4$
+    \item $1$
+    \item $3$
+    \item $4$
+ \end{enumerate}
+     \item Find the matrix $A^2$, where $A = \myvec{a_{ij}}$ is a $2 \times 2$ matrix whose elements are given by $a_{ij} = \max(i, j) - \min(i, j)$:
+\begin{enumerate}[label=(\alph*)]
+    \item $\myvec{0 & 0 \\ 0 & 0}$
+    \item $\myvec{0 & 1 \\ 1 & 0}$
+    \item $\myvec{1 & 0 \\ 0 & 1}$
+    \item $\myvec{1 & 1 \\ 1 & 1}$
+\end{enumerate}
+ \item Derivative of $e^{\sin^2{x}}$ with respect to $\cos{x}$ is:
+\begin{enumerate}[label=(\alph*)]
+    \item $\sin{x} e^{a\sin^2{x}}$
+    \item ${\cos{x}e^{\sin^2{x}}}$
+    \item $2{\cos{x}e^{\sin^2{x}}}$
+    \item $-2\sin^2{x}\cos{x}e^{\sin^2{x}}$
+\end{enumerate}
+\item The function $f(x) = \frac{x}{2} + \frac{2}{x}$ has a local minimum at $x$ equal to:
+\begin{enumerate}[label=(\alph*)]
+    \item $2$
+    \item $1$
+    \item $0$
+    \item $-2$
+\end{enumerate}
+
+
+\section*{Assertion - Reason Based Questions}
+\noindent \textbf{Direction:} In questions numbers 19 and 20, two statements are given: one labeled Assertion (A) and the other labeled Reason (R). Select the correct answer from the following options:
+\begin{itemize}
+    \item[(A)] Both Assertion (A) and Reason (R) are true and the Reason (R) is the correct explanation of the Assertion (A).
+    \item[(B)] Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of the Assertion (A).
+    \item[(C)] Assertion (A) is true, but Reason (R) is false.
+    \item[(D)] Assertion (A) is false, but Reason (R) is true.
+\end{itemize}
+
+    \item \textbf{Assertion (A):} Domain of $y = \cos^{-1}(x)$ is $[-1, 1]$.\\
+    \textbf{Reason (R):} The range of the principal value branch of $y = \cos^{-1}(x)$ is $\left[0, \pi \right] - \left\{\frac{\pi}{2}\right\}$.
+
+    
+\end{enumerate}
+
+\end{document}
